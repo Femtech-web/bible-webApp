@@ -1,0 +1,176 @@
+body{
+    font-family: 'Montserrat';
+    background-color: white;
+}
+
+/* Navbar Section */
+.brand-span{
+    color: red;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.navbar-brand{
+    font-weight: 600;
+    color: white;
+}
+
+.navbar{
+    padding: 3% 5%;
+    position: relative;
+    z-index: 8;
+}
+
+.nav-link{
+    color: white;
+    letter-spacing: 0.1rem;
+}
+
+/* Image Section */
+
+.img-bg-half{
+    height: 70vh;
+}
+
+.img-bg{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    background-color: black;
+    z-index: 2;
+    opacity: 0.5;
+    overflow: hidden;
+}
+
+/* Word Section */
+
+#showcase{
+    height: 60vh;
+}
+
+.showcase-text{
+    position: absolute;
+    z-index: 5;
+    top: 30%;
+    padding: 0 6%;
+    color: white;
+}
+
+.showcase-video{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    object-fit: cover;
+    height: 70vh;
+}
+
+/* Desc Section */
+
+#desc{
+    text-align: center;
+    padding: 0 20%;
+    position: relative;
+}
+
+#desc h1{
+    font-weight: 800;
+    line-height: 2.5rem;
+    padding-bottom: 5%;
+}
+
+.welcome{
+    letter-spacing: 0.3rem;
+    padding: 5% 10%;
+}
+
+/* Bible section */
+
+.bible-verse{
+    position: relative;
+    background-color: #3F4E4F;
+    width: 100%;
+    padding: 20px;
+    margin: 10px 0;
+    box-shadow: 0 0 5px grey;
+    color: white;
+}
+
+.verse{
+    padding: 5% 20%;
+}
+
+.verse-mood{
+    margin-left: 5%;
+}
+
+.verse-num{
+    position: absolute;
+    right: 20px;
+    bottom: 0;
+    margin: 10px auto;
+}
+
+/* Footer Section */
+
+#footer{
+    position: relative;
+    height: 45vh;
+    padding: 10% 0;
+    text-align: center;
+    color: white;
+    background-color: #3C2A21;
+}
+
+.social a{
+    text-decoration: none;
+    padding: 0 10px;
+    color: white;
+}
+
+.fb{
+    color: white;
+    transform: scale(1.5);
+    padding-right: 5px;
+}
+
+.terms{
+    position: absolute;
+    text-align: center;
+    bottom: 5%;
+    left: 30%;
+}
+
+.terms small{
+    padding: 0 20px;
+    font-size: 1.2rem;
+    letter-spacing: 0.3rem;
+    line-height: 1.5rem;
+}
+
+.logout{
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 600px) {
+    /* .terms{
+        left: 13%;
+    } */
+    .terms small{
+        font-size: 1rem;   
+    }
+
+    .fb{
+        transform: scale(1);
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    #footer{
+    
+    }
+    .terms{
+        left: 2%;
+        bottom: 5%;
+    }
+}

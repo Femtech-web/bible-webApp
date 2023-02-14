@@ -1,0 +1,30 @@
+<%- include('header') -%>
+<body>
+    <form action="/register" method="post" >
+        <h2 class="form-head">REGISTER</h2>
+        <%= msg %>
+        <label >
+          <p class="label-txt">ENTER YOUR FULL NAME</p>
+          <input type="text" class="input" name="name">
+          <div class="line-box">
+            <div class="line"></div>
+          </div>
+        </label>
+        <label>
+          <p class="label-txt">ENTER YOUR EMAIL</p>
+          <input type="text" class="input" name="email">
+          <div class="line-box">
+            <div class="line"></div>
+          </div>
+        </label>
+        <label>
+          <p class="label-txt">ENTER YOUR PASSWORD</p>
+          <input type="password" class="input" name="password">
+          <div class="line-box">
+            <div class="line"></div>
+          </div>
+        </label>
+        <button type="submit">submit</button>
+      </form>
+</body>
+</html>

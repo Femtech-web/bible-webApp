@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Explora&family=Merriweather:wght@400;700;900&family=Montserrat:wght@200;400;700;900&family=Poppins:wght@100;400&family=Sacramento&family=Varela+Round&display=swap" rel="stylesheet">
+  <!-- Font Awsome -->
+  <script src="https://kit.fontawesome.com/b48825f7a9.js" crossorigin="anonymous"></script>
+  <!-- Bootstrap CDN'S -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.rtl.min.css" integrity="sha384-WJUUqfoMmnfkBLne5uxXj+na/c7sesSJ32gI7GfCk4zO4GthUKhSEGyvQ839BC51" crossorigin="anonymous">    
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+  <!-- My css -->
+  <link rel="stylesheet" href="css/style2.css">  
+  <title>Your Word</title>
+</head>
+<body>
+        <%- include('navbar') -%>
+
+        <section id="showcase">
+            <video class="showcase-video" src="videos/nature.mp4" muted loop autoplay></video>
+            <div class="showcase-text">
+                <h1>"Thy Word is a Lamp to my Feet <br>and a Light to my Way"</h1>
+                <small>(psalm 109vs105)</small>
+            </div>
+        </section>
+    
+        <section id="desc">
+            <h3 class="welcome"><%= welcome %></h3>
+            <h1>What Does the Bible say About Your Situation ?</h1>
+        </section>
+    
+        <section id="bible-sec" class=" bg-light">
+            <div class="bible-verse">
+                <small class="verse-mood">Desperate ?</small>
+                <h3 class="verse container"><i>"Seek ye first the Kingdom of God and its Righteousness and the rest shall be added to you"</i></h3>
+                <small class="verse-num">(Matthew 6 vs 20)</small>
+            </div>
+            <div class="bible-verse">
+                <small class="verse-mood">Weak ?</small>
+                <h3 class="verse container"><i>"He Giveth Power to the Faint, and to them that have no might he increaseth Strength"</i></h3>
+                <small class="verse-num">(isaiah 40 vs 29)</small>
+            </div>
+            <div class="bible-verse">
+                <small class="verse-mood">Hopeless ?</small>
+                <h3 class="verse container"><i>"I know the thoughts i have towards you says the Lord, the thoughts of Good and not of Evil and to give you a Good End"</i></h3>
+                <small class="verse-num">(Jeremiah 29 vs 11)</small>
+            </div>
+            <div class="bible-verse">
+                <small class="verse-mood">Erring ?</small>
+                <h3 class="verse container"><i>"Blessed is the man that walks not in the Counsel of the Wicked, nor stand in the company of sconners, nor seat in the Seat of the Scornful"</i></h3>
+                <small class="verse-num">(Psalm 1 vs 1)</small>
+            </div>
+            <div class="bible-verse">
+                <small class="verse-mood">Happy ?</small>
+                <h3 class="verse container"><i>"This is the Conclusion of the matter. Fear God and keep his Commandment, for this is whole Duty of a Man"</i></h3>
+                <small class="verse-num">(Ecclesiastes 12 vs 13)</small>
+            </div>
+        </section>
+    
+        <div class="img-bg img-bg-half"></div>
+
+        <%- include('footer') -%>
+</body>
+</html>
+
