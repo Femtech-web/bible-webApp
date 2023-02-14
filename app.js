@@ -161,4 +161,5 @@ app.get('/logout', (req, res) => {
 })
 
 
-module.exports = app;
+app.listen('3000' || process.env.PORT || `0.0.0.0:$PORT`, 
+console.log('server is running successfully'));
